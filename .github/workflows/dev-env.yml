@@ -17,4 +17,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: drd4n/bookinfo-ratings:dev
+          tags: ghcr.io/drd4n/bookinfo-ratings:dev
