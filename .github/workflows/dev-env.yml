@@ -19,3 +19,5 @@ jobs:
           context: .
           push: true
           tags: drd4n/bookinfo-ratings:dev
+          secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
