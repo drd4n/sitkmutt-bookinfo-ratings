@@ -51,4 +51,4 @@ jobs:
       - name: acceptance test
         run: |
          curl http://sitkmutt.bookinfo.dev.opsta.net/student25/ratings/health | grep "Ratings is good"
-         echo ?$
+         echo $?
